@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
+
 <body>
-    
+
     <h1>The Psychic Game</h1>
     <p>Guess what letter I'm thinking of</p>
-    <p>Wins: </p>
-    <p>Loses: </p>
-    <p>Guesses left: </p>
+    <p>Wins: <span id="winNumber"></span> </p>
+    <p>Loses: <span id="lossNumber"></span></p>
+    <p>Guesses left: <span id="guessesLeft"></span></p>
     <p>You guesses so far: </p>
+    <p><span id="letters"></span></p>
 
     <script src="./assets/js/game.js"></script>
 </body>
+
 </html>
